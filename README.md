@@ -16,6 +16,14 @@ The beginning of building the interface of the home page
 
 ---
 
+## part 3
+
+The ending of building the interface of the home page
+
+![part3](https://user-images.githubusercontent.com/102150516/210061799-f7a88f4d-4516-4e10-b5ad-b470a2adf96e.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
