@@ -1,20 +1,15 @@
 import React from "react";
 import VodItem from "./vodItem";
 
-function VodList() {
+function VodList(props) {
   return (
     <div className="container-fluid p-5">
       <div className="container">
         <h2>List of tv show: </h2>
         <div className="row">
-          <VodItem />
-          <VodItem />
-          <VodItem />
-          <VodItem />
-          <VodItem />
-          <VodItem />
-          <VodItem />
-          <VodItem />
+          {props.vod_ar.map((item) => {
+            return <VodItem key={item.imdbID} item={item} />;
+          })}
         </div>
       </div>
     </div>

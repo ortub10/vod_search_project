@@ -1,17 +1,15 @@
 import React from "react";
 
-function VodItem() {
-  // It will be change with data from api
+function VodItem(props) {
+  let item = props.item;
   return (
-    <div className="col-md-3 border p-2">
-      <img
-        src="https://i.ebayimg.com/images/g/jaoAAOSw9RVfBfC4/s-l500.jpg"
-        className="float-start me-2 w-50"
-        alt="pic"
-      />
-      <h3>Rambo 5</h3>
-      <div>Year: 2020</div>
-      <button className="btn btn-dark">More info</button>
+    <div className="col-md-4 p-2">
+      <div className="border p-2 h-100 overflow-hidden shadow">
+        <img src={item.Poster} className="float-start me-2 w-25" alt="pic" />
+        <h3>{item.Title}</h3>
+        <div>Year: {item.Year}</div>
+        <button className="btn btn-dark">More info</button>
+      </div>
     </div>
   );
 }
