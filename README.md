@@ -8,6 +8,14 @@ Characterization of the project
 
 ---
 
+## part 2
+
+The beginning of building the interface of the home page
+
+![part2](https://user-images.githubusercontent.com/102150516/210058997-5fa7a71d-e693-4e34-a93b-7540528cc7fc.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:

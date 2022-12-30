@@ -1,11 +1,12 @@
 import React from "react";
 
 import "./App.css";
+import Home from "./components/home";
 
 function App() {
   return (
     <React.Fragment>
-      <h2 className="text-danger">Vod project</h2>
+      <Home />
     </React.Fragment>
   );
 }
