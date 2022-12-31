@@ -46,6 +46,14 @@ Showing movies by search in INPUT
 
 ---
 
+## part 7
+
+Showing id number when ther is preesing on "More info"
+
+![part7](https://user-images.githubusercontent.com/102150516/210155339-0845d3a3-e881-4683-98c9-15daab106d36.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:

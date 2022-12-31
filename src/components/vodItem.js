@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function VodItem(props) {
   let item = props.item;
@@ -8,7 +9,12 @@ function VodItem(props) {
         <img src={item.Poster} className="float-start me-2 w-25" alt="pic" />
         <h3>{item.Title}</h3>
         <div>Year: {item.Year}</div>
-        <button className="btn btn-dark">More info</button>
+
+        <button className="btn">
+          <Link className="btn btn-dark" to={`/info/${item.imdbID}`}>
+            More info
+          </Link>
+        </button>
       </div>
     </div>
   );
