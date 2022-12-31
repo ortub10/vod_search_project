@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Link : https://jovial-choux-f6a0f6.netlify.app/?s=bob
+Link : https://jovial-choux-f6a0f6.netlify.app
 
 ## part 1
 
