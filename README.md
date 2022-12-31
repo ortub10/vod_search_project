@@ -38,6 +38,14 @@ Showing the list of movies from the API request
 
 ---
 
+## part 6
+
+Showing movies by search in INPUT
+
+![part6](https://user-images.githubusercontent.com/102150516/210154858-e6cfa95f-b634-4a1b-b7c0-6b20dc35d3d2.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:

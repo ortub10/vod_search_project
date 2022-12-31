@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
-import Footer from "./footer";
-import VodInput from "./vodInput";
+import { useSearchParams } from "react-router-dom";
 import VodList from "./vodList";
 import VodStript from "./vodStript";
 import "./home.css";
 
 function Home() {
   const [ar, setAr] = useState([]);
+  const [query] = useSearchParams();
   useEffect(() => {
-    doApi("batman");
-  }, []);
+    let searchQ = query.get("s") || "superman";
+    doApi(searchQ);
+  }, [query]);
 
   const doApi = async (_search) => {
     let myUrl = `https://www.omdbapi.com/?s=${_search}&apikey=2e25c92a`;
@@ -20,9 +21,7 @@ function Home() {
   return (
     <React.Fragment>
       <VodStript />
-      <VodInput />
       <VodList vod_ar={ar} />
-      <Footer />
     </React.Fragment>
   );
 }
