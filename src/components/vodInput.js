@@ -10,6 +10,11 @@ function VodInput() {
     nav(`/?s=${inputVal}`);
   };
 
+  const onKeyboardClick = (e) => {
+    if (e.key === "Enter") {
+      onSearchClick();
+    }
+  };
   return (
     <header className="container-fluid bg-dark p-2">
       <div className="container">
@@ -19,6 +24,7 @@ function VodInput() {
           </div>
           <nav className="d-flex col-md-4">
             <input
+              onKeyDown={onKeyboardClick}
               ref={inputRef}
               type="search"
               className="form-control"

@@ -54,6 +54,14 @@ Showing id number when ther is preesing on "More info"
 
 ---
 
+## part 8
+
+Displaying information about a movie and back to the list
+
+![part8](https://user-images.githubusercontent.com/102150516/210155903-8c84d36d-d072-419c-85d7-e5a07e188349.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
